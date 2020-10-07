@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vscode/master/extensions/configuration-editing/schemas/devContainer.schema.json",
+    "name": "ESP-IDF project",
+    "image": "espressif/idf",
+    "extensions": [
+        "espressif.esp-idf-extension"
+    ],
+    "settings": {
+        "idf.espIdfPath": "/opt/esp/idf",
+        "idf.toolsPath": "/root/.espressif",
+    }
+}
