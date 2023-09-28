@@ -7,7 +7,7 @@
 /* 可以使用项目配置菜单（idf.py menuconfig）选择要闪烁的GPIO，
    或者您可以编辑以下行并在此处设置一个数字。
 */
-#define BLINK_GPIO 2
+#define BLINK_GPIO 2 //GPIO2
 
 void app_main(void)
 {
