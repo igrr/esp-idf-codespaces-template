@@ -1,1 +1,6 @@
-{}
+{
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/opt/esp/tools/openocd-esp32/v0.10.0-esp32-20191114/openocd-esp32/share/openocd/scripts"
+    },
+    "idf.adapterTargetName": "esp32"
+}
